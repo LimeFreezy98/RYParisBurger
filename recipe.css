@@ -9,3 +9,204 @@ body {
     color: #333;
 }
 
+/* top header */
+header {
+    background: #f4a300;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+  }
+  header .logo {
+    height: 60px;
+    width: auto;
+  }
+  header nav {
+    
+    display: flex;
+    align-items: center;
+  }
+  header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-weight: 500;
+  }
+
+  /* hero image */
+  .hero {
+    background: url("image/bengal-burger.jpg")center/cover no-repeat;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  .hero h2 {
+    background: rgba(255,255,255);
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 0px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+  }
+
+  /* time info section */  
+
+  .time-title{
+    background: #e8eaf6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 350px;
+    margin: 0;
+    width: 100%;
+    /* border-radius: 0; */
+    
+  }
+
+  
+  
+  .time-info {
+    background: #e8eaf6;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding:  3px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+  } 
+  
+
+
+   .time-col {
+    flex: 1;
+  }
+
+  .timeinfo .time-heading {
+    margin: 0 0 5px 0; 
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  
+  .time-info p {
+    margin: 5px 0;
+    font-size: 0.95rm;
+  }
+  
+   /* recipe info */
+   .recipe-info {
+    padding: 2rem;
+    max-width: 500px;
+    margin: auto;
+  }
+  .recipe-info h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  .reviews {
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 20px;
+  }
+
+  .reviews img {
+    width: 22px;
+    height: 22px;
+  }
+
+ /* print button? */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .save-btn {
+    background:  #be4747;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    margin: 8px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+
+  .print-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .print-btn img {
+    width: 50px;
+    height: 50px;
+  }
+
+  blockquote {
+    /* font-style: italic; */
+  background: #e5e5e5;
+  padding: 80px 100px;
+  margin: 50px -470px;
+  font-size: 1.5em;
+  line-height: 1.8;
+  
+ 
+  }
+
+  
+  .recipe-details {
+    display: flex;
+    gap: 40px;         
+    justify-content: space-between; 
+  align-items: flex-start; /* keeps aligned at top */
+  }
+  
+  .ingredients, .directions {
+    flex: 1;           
+    /* background: #fff; */
+    padding: 2rem;
+    border-radius: 6px;
+  }
+  
+  .ingredients ul {
+    list-style: disc inside;
+    margin-top: 10px;
+  }
+  
+  .directions ol {
+    padding-left: 20px;
+  }
+  
+  .directions li {
+    margin-bottom: 12px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #f4a300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    flex-wrap: wrap;
+  }
+  footer nav {
+    display: flex;
+    gap: 15px;
+  }
+  footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+  }
